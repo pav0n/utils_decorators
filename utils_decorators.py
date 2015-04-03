@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+__author__ = 'Juan Pavón'
+__email__ = 'pavon.gnu@gmail.com'
+__copyright__ = 'Copyright(c) 2015, Juan Pavón'
+__license__ = 'LGPLv3'
+__version__ = '1.0'
+__status__ = 'Development'
+
 def autolog(request=None,logger=None):
   """ decorador para logger ajustado para web2py """
   def wrapper(action):
